@@ -11,7 +11,11 @@ export default {
         secondary: "#313131",
         bgPrimary: "#292929",
         bgGrey: "#656565",
-      }
+      },
+      fontFamily:{
+        poppins: ["Poppins", "sans-serif"],
+        geologica: ["Geologica", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -1,11 +1,17 @@
 import { react } from 'react'
-import './App.css'
+
+import { Header, Hint, Box, Keyboard } from "./components/" 
 
 function App() {
 
   return (
     <>
-      <div>Hi</div>
+      <div className='flex flex-col gap-5 justify-center items-center'>
+        <Header/>
+        <Hint/>
+        <Box/>
+        <Keyboard/>
+      </div>
     </>
   )
 }
